@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tilt+Warp&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tilt Warp', cursive;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+   
+    img{
+        height:200px;
+        width: 200px;
+        border-bottom: 1px solid black;
+      }
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 10px 10px;
+
+    p{
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+.scoreboard-title{
+    display: flex;
+    justify-content: center;
+}

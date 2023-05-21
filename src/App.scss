@@ -27,8 +27,20 @@
         font-weight: bold;
     }
 }
-
-.scoreboard-title{
+.scoreboard-content{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.scoreboard-title{
+    display: inline-block;
     justify-content: center;
+ 
+}
+
+.scoreboard{
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-evenly ;
+    
 }

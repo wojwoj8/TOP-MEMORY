@@ -16,7 +16,7 @@ import iconScala from '../images/scala-seeklogo.com.svg';
 import iconSwift from '../images/swift-seeklogo.com.svg';
 import iconTs from '../images/typescript-seeklogo.com.svg';
 
-const CardContainer = () =>{
+const CardContainer = ({increase, highscore}) =>{
 
     let icons = [
         { icon: iconC, name: "C" },
@@ -42,9 +42,12 @@ const CardContainer = () =>{
         <div className="cards">
             {icons.map((icon) =>(
                 <Cards
+                increase={increase}
+                highscore={highscore}
                 key={icon.name}
                 name={icon.name}
                 icon={icon.icon}
+                
                 >
                 </Cards>
             ))}

@@ -3,17 +3,22 @@
 *{
     font-family: 'Roboto', sans-serif;
     font-family: 'Tilt Warp', cursive;
+    
 }
 .cards{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    user-select: none;
+    // pointer-events: none;
     
    
     img{
         height:200px;
         width: 200px;
         border-bottom: 1px solid black;
+        
+        pointer-events: none;
       }
 }
 .card{
@@ -25,6 +30,7 @@
     p{
         text-align: center;
         font-weight: bold;
+        
     }
 }
 .scoreboard-content{
@@ -35,6 +41,7 @@
 .scoreboard-title{
     display: inline-block;
     justify-content: center;
+    text-align: center;
  
 }
 

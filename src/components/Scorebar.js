@@ -1,4 +1,5 @@
-const Scoreboard = () =>{
+const Scoreboard = ({value, highscore}) =>{
+
 
     return(
         <div className="scoreboard-content">
@@ -11,8 +12,8 @@ const Scoreboard = () =>{
                     </h2>
                 </div>
                 <div className="scoreboard">
-                    <p className="score">Score: </p>
-                    <p className="high-score">High Score: </p>
+                    <p className="score">Score: {value} </p>
+                    <p className="high-score">High Score: {highscore} </p>
                 </div>
             </div>
         </div>

@@ -1,12 +1,10 @@
-import CardContainer from './CardContainer';
-
-
-const Cards = ({name, icon}) => {
+const Cards = ({name, icon, increase}) => {
 
   
     return (
       <div className='card'>
-          <div className='card-content'>
+          <div className='card-content'
+          onClick={increase}>
             <img src={icon} alt={name} />
             <p>{name}</p>
           </div>

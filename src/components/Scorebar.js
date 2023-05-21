@@ -8,7 +8,7 @@ const Scoreboard = ({value, highscore}) =>{
             
                 <div className="scoreboard-title">
                     <h2>
-                        Programming Languages Memory game
+                        Programming Technologies Memory game
                     </h2>
                 </div>
                 <div className="scoreboard">

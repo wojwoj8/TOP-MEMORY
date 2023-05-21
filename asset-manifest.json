@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/TOP-MEMORY/static/css/main.caf509dc.css",
+    "main.js": "/TOP-MEMORY/static/js/main.99d4c92b.js",
+    "static/media/go-seeklogo.com.svg": "/TOP-MEMORY/static/media/go-seeklogo.com.a133b78b252b8cfb35adc983d3dbae60.svg",
+    "static/media/rust-seeklogo.com.svg": "/TOP-MEMORY/static/media/rust-seeklogo.com.3cdf5163ad3cc8cab90135d9b7d5406e.svg",
+    "static/media/ruby-seeklogo.com.svg": "/TOP-MEMORY/static/media/ruby-seeklogo.com.67bc5facad6cfa03aaafadcab5d0a4a3.svg",
+    "static/media/react-seeklogo.com.svg": "/TOP-MEMORY/static/media/react-seeklogo.com.ae62622598f39552abdcdb023e554c6f.svg",
+    "static/media/java-seeklogo.com.svg": "/TOP-MEMORY/static/media/java-seeklogo.com.83165dfb2f5a7657ce4c73e0ba3cef32.svg",
+    "static/media/typescript-seeklogo.com.svg": "/TOP-MEMORY/static/media/typescript-seeklogo.com.17d5e87eac2c9d1dc722ce1e0b60d5df.svg",
+    "static/media/php-seeklogo.com.svg": "/TOP-MEMORY/static/media/php-seeklogo.com.8c49448ba31fd23639c1b1d37d18bc99.svg",
+    "static/media/python-seeklogo.com.svg": "/TOP-MEMORY/static/media/python-seeklogo.com.6a8b2999db46fb931134216e8fdfdb2c.svg",
+    "static/media/c-seeklogo.com.svg": "/TOP-MEMORY/static/media/c-seeklogo.com.c4a42e1361f15351e4445b53cde0aa8e.svg",
+    "static/media/css3-seeklogo.com.svg": "/TOP-MEMORY/static/media/css3-seeklogo.com.e7a9de36d9335d92932e93eb3b32deb9.svg",
+    "static/media/swift-seeklogo.com.svg": "/TOP-MEMORY/static/media/swift-seeklogo.com.daeb9c9bc485cafb585fd771f1e82b02.svg",
+    "static/media/scala-seeklogo.com.svg": "/TOP-MEMORY/static/media/scala-seeklogo.com.92f111af3aff1c70cb26af5afd8e55a0.svg",
+    "static/media/kotlin-seeklogo.com.svg": "/TOP-MEMORY/static/media/kotlin-seeklogo.com.288d3246c65f0ac69f7d7afcba5d769e.svg",
+    "static/media/javascript-js-seeklogo.com.svg": "/TOP-MEMORY/static/media/javascript-js-seeklogo.com.fd46ca41839433d73577989d86eb2fe2.svg",
+    "static/media/c-programming-language-seeklogo.com.svg": "/TOP-MEMORY/static/media/c-programming-language-seeklogo.com.a6e28c9c99f89ff327123ea5ac4555a4.svg",
+    "static/media/fortran-seeklogo.com.svg": "/TOP-MEMORY/static/media/fortran-seeklogo.com.f1306891bc2fb09b4e54462bf2b4c9ac.svg",
+    "index.html": "/TOP-MEMORY/index.html",
+    "main.caf509dc.css.map": "/TOP-MEMORY/static/css/main.caf509dc.css.map",
+    "main.99d4c92b.js.map": "/TOP-MEMORY/static/js/main.99d4c92b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.caf509dc.css",
+    "static/js/main.99d4c92b.js"
+  ]
+}

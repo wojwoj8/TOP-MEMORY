@@ -1,4 +1,4 @@
-const Cards = ({name, icon, increase, add, handleGame}) => {
+const Cards = ({name, icon, handleGame}) => {
 
   
     return (

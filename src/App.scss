@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Tilt+Warp&display=swap');
 
+$namesCol: white;
+$background: linear-gradient(90deg, rgba(0,5,36,1) 1%, rgba(9,9,121,1) 25%, rgba(8,40,142,1) 41%, rgba(7,57,153,1) 55%, rgba(6,81,169,1) 72%, rgba(0,212,255,1) 100%);
+
+
 *{
     font-family: 'Roboto', sans-serif;
     font-family: 'Tilt Warp', cursive;
+    
+    
+}
+html{
+    background: $background;
     
 }
 .cards{
@@ -11,7 +20,12 @@
     justify-content: space-evenly;
     user-select: none;
     // pointer-events: none;
-    
+    p{
+        color: black;
+  
+       
+
+    }
    
     img{
         height:200px;
@@ -24,12 +38,17 @@
 .card{
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+
+    background-image: linear-gradient( 135deg, #96d0f9 10%, #0574c3 100%);
+    // border: 1px solid white;
+    padding: 5px;
     margin: 10px 10px;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
 
     p{
         text-align: center;
         font-weight: bold;
+        font-size: 1.25rem;
         
     }
 }
@@ -42,6 +61,10 @@
     display: inline-block;
     justify-content: center;
     text-align: center;
+    h2{
+        color: white;
+        font-size: 2rem;
+    }
  
 }
 
@@ -49,5 +72,10 @@
     box-sizing: content-box;
     display: flex;
     justify-content: space-evenly ;
+
+    p{
+        color: white;
+        font-size: 1.25rem;
+    }
     
 }
